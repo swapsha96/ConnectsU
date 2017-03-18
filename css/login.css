@@ -1,0 +1,38 @@
+body{
+    background-color: #E0F2F1;
+}
+
+.block{
+    width : 46%;
+    margin : 2%;
+    padding : 2% 5%;
+}
+
+#signin{
+    position : absolute;
+    top: 220px;
+    right: 0;
+    
+}
+
+#signup{
+    position : absolute;
+    left: 0;
+}
+
+#desc{
+    top: 0;
+    position : absolute;
+    right: 0;
+}
+
+#profile_picture{
+    
+    position : absolute;
+    width : 15%;
+    top : 100px;
+    left : 400px;
+    margin: 10px;
+    padding : 10px;
+    
+}

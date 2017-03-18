@@ -1,0 +1,194 @@
+   
+    ::-webkit-scrollbar {
+		  width: 1%;
+    }
+        
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color: #E1F5FE;
+    } 
+        
+    ::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background-color: #26C6DA;
+
+}
+ 
+       .animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom :-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+.cs-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #E0E0E0;
+}
+
+.cs-loader-inner {
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  align-content: center;
+}
+
+.cs-loader-inner label {
+    opacity : 0;
+  display:inline-block;
+}
+
+@keyframes lol {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  33% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+}
+
+@-webkit-keyframes lol {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-300px);
+  }
+  33% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+  }
+  66% {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(300px);
+  }
+}
+
+.cs-loader-inner label:nth-child(6) {
+  -webkit-animation: lol 3s infinite ease-in-out;
+  animation: lol 3s infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(5) {
+  -webkit-animation: lol 3s 100ms infinite ease-in-out;
+  animation: lol 3s 100ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(4) {
+  -webkit-animation: lol 3s 200ms infinite ease-in-out;
+  animation: lol 3s 200ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(3) {
+  -webkit-animation: lol 3s 300ms infinite ease-in-out;
+  animation: lol 3s 300ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(2) {
+  -webkit-animation: lol 3s 400ms infinite ease-in-out;
+  animation: lol 3s 400ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(1) {
+  -webkit-animation: lol 3s 500ms infinite ease-in-out;
+  animation: lol 3s 500ms infinite ease-in-out;
+}
+
+    #back{
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        position: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    body{
+        background-color: #E0E0E0;
+    }
+    .header{
+        position : fixed;
+        top: 0;
+        background-color: rgb(55, 128, 132);
+    }
+    
+    .block{
+        width : 96%;
+        margin : 10px;
+        padding : 30px;
+        opacity: 0.95;
+        min-height: 0px;
+    }
+    
+    #notification{
+        background-color: rgb(255, 255, 255);
+ 
+    }
+    
+    .head_button{
+        width : 1px;
+        border : none; 
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    #headbtn{
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .headicon{
+        width : 65%;
+        opacity : 0.7;
+    }
+    
+    #searchbar{
+        position : relative;
+        right : 15%;
+    }
+     
+    #title{
+        position: relative;
+        left : 12%;
+    }
+    
+    #post{
+        position : absolute;
+        width : 10%;
+        right : 10px;
+        bottom : 10px;
+    }
+    
+    #option{
+        align-self: center; 
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
